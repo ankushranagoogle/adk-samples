@@ -25,6 +25,9 @@ It is used for Cloud Run deployment with standard gcloud run deploy command.
 
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import uvicorn
 from dotenv import load_dotenv
 from fastapi import FastAPI
